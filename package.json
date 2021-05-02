@@ -1,0 +1,30 @@
+{
+	"name": "co-advertising-settings",
+	"version": "1.0.0",
+	"description": "Advertising Settings Sidebar Plugin",
+	"main": "index.js",
+	"scripts": {
+		"start": "wp-scripts start",
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint": "npm run lint:js && npm run lint:style",
+		"lint:js": "wp-scripts lint-js",
+		"lint:style": "wp-scripts lint-style",
+		"wp-env": "wp-env"
+	},
+	"author": "Claudine Ong",
+	"license": "ISC",
+	"devDependencies": {
+		"@wordpress/env": "^4.0.3",
+		"@wordpress/prettier-config": "^1.0.3",
+		"@wordpress/scripts": "^15.0.0"
+	},
+	"dependencies": {
+		"@wordpress/components": "^13.0.3",
+		"@wordpress/compose": "^3.25.3",
+		"@wordpress/data": "^4.27.3",
+		"@wordpress/edit-post": "^3.27.3",
+		"@wordpress/i18n": "^3.20.0",
+		"@wordpress/plugins": "^2.25.3"
+	}
+}
